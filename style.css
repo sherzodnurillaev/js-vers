@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px 0;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.elem {
+    width: 250px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.text {
+    padding: 20px;
+}
+.topText {
+    color: #fff;
+    font-size: 18px;
+}
+.midText {
+    color: rgb(203, 203, 203);
+    font-size: 10px;
+    margin: 10px 0;
+}
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.it {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.spaText {
+    font-size: 20px;
+    color: #fff;
+}
+
+.but {
+    background-color: #fff;
+    color: #000;
+    margin: 20px 20px 15px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.acctive {
+    background-color: rgb(0, 166, 255);
+    color: #fff;
+    margin: 20px 20px 15px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.but:hover {
+    scale: 1.02;
+    transition: 300ms ease;
+}
+.acctive:hover {
+    scale: 1.02;
+    transition: 300ms ease;
+}
+.acctive:active {
+    scale: 1;
+    transition: 500ms ease;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
