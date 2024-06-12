@@ -67,7 +67,7 @@ function  five() {
         
         butn.onclick = () => {
             butn.classList.toggle('acctive')
-            if (butn.classList.contains('but')) {
+            if (butn.className == 'but') {
                 butn.innerHTML = 'В избранное'
                 total.innerHTML--
             } else {
