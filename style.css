@@ -59,6 +59,8 @@ img {
     flex-direction: column;
     border: 1px solid black;
     height: 400px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
 .text {
@@ -136,4 +138,5 @@ img {
     height: 40%;
     object-fit: contain;
     background-color: #fff;
+    border-top-right-radius: 50px;
 }
