@@ -53,6 +53,22 @@ img {
     scale: 0.95;
 }
 
+.basket {
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-right: 5px;
+    position: absolute;
+    top: 50px;
+}
+
+.basket:active {
+    scale: 0.95;
+}
+
 .elem {
     background-color: black;
     display: flex;
@@ -139,4 +155,71 @@ img {
     object-fit: contain;
     background-color: #fff;
     border-top-right-radius: 50px;
+}
+
+.ele__box {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.ele {
+	padding: 10px 24px;
+	background-color: white;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    margin: 10px;
+}
+
+.ele img {
+	width: 64px;
+	height: 64px;
+	object-fit: contain;
+}
+
+.ele__box button {
+	width: 36px;
+	height: 36px;
+	font-size: 24px;
+	background: none;
+	border-radius: 5px;
+	background-color: #444;
+	color: white;
+	cursor: pointer;
+}
+.ele__box span {
+	font-size: 20px;
+	font-weight: 700;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 450px;
+    height: 100vh;
+    background-color: #000;
+    padding: 0 20px;
+    z-index: 1;
+}
+
+section h1 {
+    background-color: #fff;
+    width: fit-content;
+    padding: 3px 10px;
+    border-radius: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+section .spanel {
+    background-color: #fff;
+    font-size: 24px;
+    padding: 10px 15px;
+    width: fit-content;
+    height: 50px;
+    position: absolute;
+    bottom: 20px;
 }
